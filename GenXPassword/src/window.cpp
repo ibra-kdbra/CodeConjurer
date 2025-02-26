@@ -94,7 +94,7 @@ void Window::updateIcons()
 
         if(QSystemTrayIcon::isSystemTrayAvailable()) {
             showProgramAction->setIcon(APP_ICON_LIGHT);
-            newAndCopyPassowrdAction->setIcon(REFRESH_ICON_LIGHT);
+            newAndCopyPasswordAction->setIcon(REFRESH_ICON_LIGHT);
         }
     } else {
         popUpButton->setIcon(MENU_ICON_DARK);
@@ -125,7 +125,7 @@ void Window::updateIcons()
 
         if(QSystemTrayIcon::isSystemTrayAvailable()) {
             showProgramAction->setIcon(APP_ICON_DARK);
-            newAndCopyPassowrdAction->setIcon(REFRESH_ICON_DARK);
+            newAndCopyPasswordAction->setIcon(REFRESH_ICON_DARK);
         }
     }
 }
@@ -167,7 +167,7 @@ void Window::createActions()
     languageActionList ={ new QAction(tr("[en] English"), languagesMenu),
                           new QAction(tr("[es] Español"), languagesMenu),
                           new QAction(tr("[fr] French"), languagesMenu),
-                          new QAction(tr("[ja] Japenese"), languagesMenu),
+                          new QAction(tr("[ja] Japanese"), languagesMenu),
                           new QAction(tr("[ar] Arabic"), languagesMenu),};
 
     themeActionList ={ new QAction(tr("Light"), themesMenu),
@@ -276,24 +276,26 @@ void Window::createTrayIcon()
     myTrayIconMenu = new QMenu(this);
 
     showProgramAction = new QAction(tr("Show %1").arg(appName), this);
-    newAndCopyPassowrdAction = new QAction(tr("New+Copy Password"), this);
+    newAndCopyPasswordAction = new QAction(tr("New+Copy Password"), this);
     exitAction = new QAction(tr("Quit"), this);
 
     myTrayIconMenu->addAction(showProgramAction);
     myTrayIconMenu->addSeparator();
-    myTrayIconMenu->addAction(newAndCopyPassowrdAction);
+    myTrayIconMenu->addAction(newAndCopyPasswordAction);
     myTrayIconMenu->addSeparator();
     myTrayIconMenu->addAction(exitAction);
 
     myTrayIcon->setContextMenu(myTrayIconMenu);
     configurateTrayIcon();
+    showProgramAction = new QAction(tr("Show %1").arg(appName), myTrayIcon);
+    newAndCopyPasswordAction = new QAction(tr("New+Copy Password"), myTrayIcon);
 }
 
 void Window::configurateTrayIcon()
 {
     myTrayIconMenu->addAction(showProgramAction);
     myTrayIconMenu->addSeparator();
-    myTrayIconMenu->addAction(newAndCopyPassowrdAction);
+    myTrayIconMenu->addAction(newAndCopyPasswordAction);
     myTrayIconMenu->addSeparator();
     myTrayIconMenu->addAction(exitAction);
 
@@ -308,7 +310,7 @@ void Window::configurateTrayIcon()
             showNormal();
         }
     });
-    connect(newAndCopyPassowrdAction, &QAction::triggered, this, [this] { emit newAndCopyPassowrdSignal(); });
+    connect(newAndCopyPasswordAction, &QAction::triggered, this, [this] { emit newAndCopyPasswordSignal(); });
     connect(exitAction, &QAction::triggered, qApp, &QApplication::quit); // Ensure exitAction quits the app
 }
 
@@ -409,7 +411,7 @@ void Window::restart()
                                 "The program can still be used\n"
                                 "but cannot be restarted due to an error.\n\n"
                                 "Do you want copy this error "
-                                "in your clipboad?").arg(error));
+                                "in your clipboard?").arg(error));
             errorBox.addButton(tr("Copy to clipboard"), QMessageBox::YesRole);
             errorBox.buttons().at(0)->setIcon(currentIndexTheme? COPY_ICON_LIGHT: COPY_ICON_DARK);
             errorBox.addButton(tr("No"), QMessageBox::NoRole);

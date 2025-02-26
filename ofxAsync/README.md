@@ -42,7 +42,8 @@ for(int i=0; i<20; ++i){
 // [notice ] thread No.3
 ```
 
-( NOTE: about the **variable capture**, please read [this](https://en.cppreference.com/w/cpp/language/lambda) or other pages )
+> [!NOTE] 
+> About the **variable capture**, please read [this](https://en.cppreference.com/w/cpp/language/lambda) or other pages
 
 And more, `ofThread*` can be used as an argument:
 
@@ -55,7 +56,7 @@ int thread_id = ofxAsync::run([&](ofThread* thread){
         ofLog() << "processing " << (i+1) << " / 10";
         ofSleepMillis(1000);
 
-        // cancell tasks when not running
+        // cancel tasks when not running
         if(!thread->isThreadRunning()){
             ofLog() << "task cancelled";
             return;
