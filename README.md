@@ -34,86 +34,93 @@
   <summary><strong>🧾 Projects Titles</strong></summary>
   <br>
 
-  <table style="width:100%; border-collapse: collapse; border: 1px solid #ddd;">
-    <thead>
-      <tr style="">
-        <th style="padding:4px 8px; text-align:center; word-wrap:break-word; font-weight:bold; border: 1px solid #ddd;">A-I</th>
-        <th style="padding:4px 8px; text-align:center; word-wrap:break-word; font-weight:bold; border: 1px solid #ddd;">I-R</th>
-        <th style="padding:4px 8px; text-align:center; word-wrap:break-word; font-weight:bold; border: 1px solid #ddd;">R-Z</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#atari-games">Atari Games</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#introspective">Introspective</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#regular-expression-convertors">Regular Expression Convertors</a></td>
-      </tr>
-      <tr>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#beneficial-c-programming">Beneficial C Programming</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#js-compiler">JS Compiler</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#sfml-multithread-verlet">SFML Multithread Verlet</a></td>
-      </tr>
-      <tr>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#chess-3d">Chess 3D</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#json-converter">Json Converter</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#simple-code">Simple Code</a></td>
-      </tr>
-      <tr>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#chess-engine">Chess Engine</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#key-to-value">Key to Value</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#simple-turso">Simple Turso</a></td>
-      </tr>
-      <tr>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#collatz-conjecture">Collatz Conjecture</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#marble-marcher">Marble Marcher</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#simplesdl2-game-template">Simplesdl2 Game Template</a></td>
-      </tr>
-      <tr>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#cpp20-develop">CPP20 Develop</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#matrix-screensaver">Matrix ScreenSaver</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#staticpagegen">StaticPageGen</a></td>
-      </tr>
-      <tr>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#customized-operators">Customized Operators</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#minishell">MiniShell</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#system-monitor">System Monitor</a></td>
-      </tr>
-      <tr>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#define-evil">Define Evil</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#mojan">Mojan</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#template-language-generator">Template Language Generator</a></td>
-      </tr>
-      <tr>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#design-patterns">Design Patterns</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#ofxasync">OfxAsync</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#thread-pool">Thread Pool</a></td>
-      </tr>
-      <tr>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#dump-c">Dump C++</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#tokenizer-tok">Tokenizer Tok</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#opengl-examples">OpenGL Examples</a></td>
-      </tr>
-      <tr>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#file-lock-socket">File Lock Socket</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#trigonometric-functions">Trigonometric Functions</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#volumetric-clouds">Volumetric Clouds</a></td>
-      </tr>
-      </tr>
-      <tr>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#genxpassword">GenXPassword</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#pipes-screensaver">Pipes ScreenSaver</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#vitefa-config">ViteFA Config</a></td>
-      <tr>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#hangman">Hangman</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#pong">POng</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#wordproc">WordProc</a></td>
-      </tr>
-      <tr>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#injecthook">InjectHook</a></td>
-        <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#random-utility-tools">Random Utility Tools</a></td>
-      </tr>
-    </tbody>
-  </table>
+<table style="width:100%; border-collapse: collapse; border: 1px solid #ddd;">
+  <thead>
+    <tr>
+      <th style="padding:4px 8px; text-align:center; word-wrap:break-word; font-weight:bold; border: 1px solid #ddd;">A-I</th>
+      <th style="padding:4px 8px; text-align:center; word-wrap:break-word; font-weight:bold; border: 1px solid #ddd;">I-R</th>
+      <th style="padding:4px 8px; text-align:center; word-wrap:break-word; font-weight:bold; border: 1px solid #ddd;">R-Z</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#atari-games">Atari Games</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#introspective">Introspective</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#regular-expression-convertors">Regular Expression Convertors</a></td>
+    </tr>
+    <tr>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#beneficial-c-programming">Beneficial C Programming</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#js-compiler">JS Compiler</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#sfml-multithread-verlet">SFML Multithread Verlet</a></td>
+    </tr>
+    <tr>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#chess-3d">Chess 3D</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#json-converter">Json Converter</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#simple-code">Simple Code</a></td>
+    </tr>
+    <tr>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#chess-engine">Chess Engine</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#key-to-value">Key to Value</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#simple-turso">Simple Turso</a></td>
+    </tr>
+    <tr>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#collatz-conjecture">Collatz Conjecture</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#marble-marcher">Marble Marcher</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#simplesdl2-game-template">Simplesdl2 Game Template</a></td>
+    </tr>
+    <tr>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#cpp20-develop">CPP20 Develop</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#matrix-screensaver">Matrix ScreenSaver</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#staticpagegen">StaticPageGen</a></td>
+    </tr>
+    <tr>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#customized-operators">Customized Operators</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#minishell">MiniShell</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#system-monitor">System Monitor</a></td>
+    </tr>
+    <tr>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#define-evil">Define Evil</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#mojan">Mojan</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#template-language-generator">Template Language Generator</a></td>
+    </tr>
+    <tr>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#design-patterns">Design Patterns</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#ofxasync">OfxAsync</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#thread-pool">Thread Pool</a></td>
+    </tr>
+    <tr>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#dump-c">Dump C++</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#tokenizer-tok">Tokenizer Tok</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#opengl-examples">OpenGL Examples</a></td>
+    </tr>
+    <tr>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#file-lock-socket">File Lock Socket</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#trigonometric-functions">Trigonometric Functions</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#volumetric-clouds">Volumetric Clouds</a></td>
+    </tr>
+    <tr>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#genxpassword">GenXPassword</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#pipes-screensaver">Pipes ScreenSaver</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#vitefa-config">ViteFA Config</a></td>
+    </tr>
+    <tr>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#hangman">Hangman</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#pong">POng</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#wordproc">WordProc</a></td>
+    </tr>
+    <tr>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#injecthook">InjectHook</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#random-utility-tools">Random Utility Tools</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#wlanflow">Wlanflow</a></td>
+    </tr>
+    <tr>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#pfad">PFAD</a></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"></td>
+      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"></td>
+    </tr>
+  </tbody>
+</table>
+
 
 </details>
 
@@ -258,9 +265,12 @@ Complex macros are useful when pushing the limits of what C/C++ can do. For exam
 
 ### [Design Patterns](./Design-Patterns)
 
-> _UNDER CONSTRUCTION_
+Implementation of the Design Patterns from the _book_:
 
-<img src="https://wiki.archiveteam.org/images/8/8b/Underconstruction.gif" width="200" alt="under constructon sign">
+"Design Patterns: Elements of Reusable Object-Oriented Software".
+
+All the design patterns are implemented in C++17.
+
 
 <div align="right"> 
 <a href="#projects-titles"> 📚 </a>
@@ -480,6 +490,11 @@ A collection of examples created while taking a Computer Graphics course to bett
 <div align="right"> 
 <a href="#projects-titles"> 📚 </a>
 </div>
+
+#
+
+### [PFAD](./PFAD)
+A refactored Proof-of-concept originally developed in 2022 to print all function calls with their arguments data types and values using Ptrace during program execution.
 
 #
 
