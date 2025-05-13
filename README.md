@@ -75,7 +75,6 @@
     </tr>
     <tr>
       <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#customized-operators">Customized Operators</a></td>
-      <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#minishell">MiniShell</a></td>
       <td style="padding:4px 8px; text-align:center; word-wrap:break-word; border: 1px solid #ddd;"><a href="#system-monitor">System Monitor</a></td>
     </tr>
     <tr>
@@ -423,27 +422,6 @@ A *Matrix* terminal screen saver made in C.
 &emsp;**Preview:**
 
 &emsp;<img src="Matrix_ScreenSaver/screenshots/matrix.png" width="400">
-
-<div align="right"> 
-<a href="#projects-titles"> 📚 </a>
-</div>
-
-#
-
-### [MiniShell](./miniShell)
-
-Minishell is a simplified shell program that emulates a Unix-like shell environment. It is built using C and provides a basic command line interface (CLI) where users can interact with the system, execute commands, and manage environment variables. This project also includes implementations of several built-in commands such as `cd`, `echo`, `env`, and more.
-
-&emsp; **Features:**
-
-- Command parsing and execution
-- Signal handling
-- Heredoc support
-- Environment variable management
-- Execution of external commands
-- Error handling
-- Readline integration
-- Compilation and Makefile
 
 <div align="right"> 
 <a href="#projects-titles"> 📚 </a>
