@@ -132,6 +132,8 @@ Projects are organized alphabetically for easy navigation. Each corresponding *R
 
 <!-- 
  TODO: add contribution section "how to contribute"
+
+need to be updated
  -->
 
 ## Projects
