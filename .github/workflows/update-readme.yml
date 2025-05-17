@@ -20,7 +20,7 @@ jobs:
 
       - name: ⚙️ Generate TOC
         run: |
-          python3 scripts/generate_toc.py
+          python3 scripts/order.py
 
       - name: 💾 Commit & Push if changed
         run: |
