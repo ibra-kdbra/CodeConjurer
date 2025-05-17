@@ -1,7 +1,7 @@
 name: Auto‑update README TOC
 
 permissions:
-  contents: write     # <-- grant write back to the repo
+  contents: write
 
 on:
   push:
@@ -24,7 +24,7 @@ jobs:
       - name: ⚙️ Generate TOC
         run: python3 scripts/order.py
 
-      - name: 💾 Commit & Push if changed
+      - name: Commit & Push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
