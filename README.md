@@ -35,83 +35,91 @@
   <br>
 <!-- TOC START -->
 <table style="width:100%; border-collapse: collapse; border:1px solid #ddd;">
-  <thead><tr>
-    <th style="padding:4px 8px; text-align:center; font-weight:bold; border:1px solid #ddd;">A–I</th>
-    <th style="padding:4px 8px; text-align:center; font-weight:bold; border:1px solid #ddd;">I–R</th>
-    <th style="padding:4px 8px; text-align:center; font-weight:bold; border:1px solid #ddd;">S–W</th>
-  </tr></thead>
+  <thead>
+    <tr>
+      <th style="padding:4px 8px; text-align:center; font-weight:bold; border:1px solid #ddd;">A–I</th>
+      <th style="padding:4px 8px; text-align:center; font-weight:bold; border:1px solid #ddd;">I–S</th>
+      <th style="padding:4px 8px; text-align:center; font-weight:bold; border:1px solid #ddd;">S–W</th>
+    </tr>
+  </thead>
   <tbody>
     <tr>
       <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#atari-games">Atari-Games</a></td>
       <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#introspective">introspective</a></td>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#sfml_multithread_verlet">SFML_Multithread_verlet</a></td>
-    </tr>
-    <tr>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#beneficial-c_programming">Beneficial-C_programming</a></td>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#js-compiler">JS-compiler</a></td>
       <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#simple-code">Simple-Code</a></td>
     </tr>
     <tr>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#chess_3d">Chess_3D</a></td>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#jsonconverter">JsonConverter</a></td>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#simple_turso">simple_turso</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#beneficial-c-programming">Beneficial-C programming</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#js-compiler">JS-compiler</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#simple-turso">simple turso</a></td>
     </tr>
     <tr>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#chess_engine">Chess_Engine</a></td>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#keytovalue">KeyToValue</a></td>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#simplesdl2_game_template">simplesdl2_game_template</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#chess-3-d">Chess 3 D</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#json-converter">Json Converter</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#simplesdl2-game-template">simplesdl2 game template</a></td>
     </tr>
     <tr>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#collatz">Collatz</a></td>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#marblemarcher">MarbleMarcher</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#chess-engine">Chess Engine</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#key-to-value">Key To Value</a></td>
       <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#staticpagegen">staticpagegen</a></td>
     </tr>
     <tr>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#cpp20_develop">CPP20_Develop</a></td>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#matrix_screensaver">Matrix_ScreenSaver</a></td>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#systemmonitor">SystemMonitor</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#collatz">Collatz</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#marble-marcher">Marble Marcher</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#system-monitor">System Monitor</a></td>
     </tr>
     <tr>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#customizedoperators">CustomizedOperators</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#cpp20-develop">CPP20 Develop</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#matrix-screen-saver">Matrix Screen Saver</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#template-language-generator">Template Language Generator</a></td>
+    </tr>
+    <tr>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#customized-operators">Customized Operators</a></td>
       <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#mojan">Mojan</a></td>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#template_language_generator">Template_Language_Generator</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#terminal-file-manager">Terminal File Manager</a></td>
     </tr>
     <tr>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#define_evil">define_evil</a></td>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#ofxasync">ofxAsync</a></td>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#terminal_file_manager">Terminal_File_Manager</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#data-types">Data Types</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#ofx-async">ofx Async</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#thread-pool">Thread Pool</a></td>
+    </tr>
+    <tr>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#define-evil">define evil</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#open-gl-examples">Open GL examples</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#tokenizer-tok">Tokenizer tok</a></td>
     </tr>
     <tr>
       <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#design-patterns">Design-Patterns</a></td>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#opengl_examples">OpenGL_examples</a></td>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#thread_pool">Thread_Pool</a></td>
-    </tr>
-    <tr>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#dump_c++">Dump_c++</a></td>
       <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#pfad">PFAD</a></td>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#tokenizer_tok">Tokenizer_tok</a></td>
-    </tr>
-    <tr>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#filelocksocket">FileLockSocket</a></td>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#pipes_screensaver">Pipes_ScreenSaver</a></td>
       <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#trigonometric-functions">Trigonometric-Functions</a></td>
     </tr>
     <tr>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#genxpassword">GenXPassword</a></td>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#pong">POng</a></td>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#vitefa_config">ViteFA_config</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#dump-c">Dump C++</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#pipes-screen-saver">Pipes Screen Saver</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#vite-fa-config">Vite FA config</a></td>
     </tr>
     <tr>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#hangman">Hangman</a></td>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#random_utility_tools">Random_Utility_tools</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#file-lock-socket">File Lock Socket</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#pong">POng</a></td>
       <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#volumetric-clouds">volumetric-clouds</a></td>
     </tr>
     <tr>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#injecthook">InjectHook</a></td>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#regularexpression_convertors">RegularExpression_Convertors</a></td>
-      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#wordproc">WordProc</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#gen-xpassword">Gen XPassword</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#random-utility-tools">Random Utility tools</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#word-proc">Word Proc</a></td>
     </tr>
-  </tbody></table>
+    <tr>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#hangman">Hangman</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#regular-expression-convertors">Regular Expression Convertors</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"></td>
+    </tr>
+    <tr>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#inject-hook">Inject Hook</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"><a href="#sfml-multithread-verlet">SFML Multithread verlet</a></td>
+      <td style="padding:4px 8px; text-align:center; border:1px solid #ddd;"></td>
+    </tr>
+  </tbody>
+</table>
 <!-- TOC END -->
 
 </details>
@@ -165,7 +173,7 @@ Utilizing only ANSI escape sequences to draw the board.
 
 #
 
-### [Beneficial C-Programming](./Beneficial-C_programming)
+### [Beneficial C Programming](./Beneficial-C_programming)
 *Compile and execute C "scripts" in one go!*
 
  A shell script designed to streamline the process of compiling and executing C (and C++) scripts with unparalleled speed. This tool allows users to run C code directly from the command line or via shebang, making it as convenient as running shell scripts. With support for multiple files and customizable compiler options.
@@ -180,7 +188,7 @@ Utilizing only ANSI escape sequences to draw the board.
 
 #
 
-### [Chess 3D](./Chess_3D)
+### [Chess 3 D](./Chess_3D)
 
 A simple 3D chess game that depends on GLFW and GLM, with U-R-C-F for game controls.
 
@@ -204,7 +212,7 @@ A Chess Engine implemented in C++17.
 
 #
 
-### [Collatz Conjecture](./Collatz)
+### [Collatz](./Collatz)
 
 [Learn more](https://en.wikipedia.org/wiki/Collatz_conjecture) about the Collatz Conjecture.
 
@@ -215,7 +223,7 @@ A program that attempts to solve the Collatz Conjecture question, which asks whe
 
 #
 
-### [CPP20 Develop](./CPP20_Develop)
+### [Cpp20 Develop](./CPP20_Develop)
 
 `A versatile collection of compile-time optimized tools for C++ programming.`
 
@@ -272,7 +280,7 @@ All the design patterns are implemented in C++17.
 
 #
 
-### [Dump C++](./Dump_c%2B%2B)
+### [Dump C](./Dump_c%2B%2B)
 
 *Dump C++ Itanium [ABI](https://en.wikipedia.org/wiki/Application_binary_interface) from [ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) objects.*
 
@@ -295,7 +303,7 @@ The project utilizes [PBKDF2](https://en.wikipedia.org/wiki/PBKDF2) for key deri
 
 #
 
-### [GenXPassword](./GenXPassword)
+### [Gen Xpassword](./GenXPassword)
 
 Shuffled random and customizable password generator.
 
@@ -343,7 +351,7 @@ A simple Hangman game created using C++ and SFML.
 
 #
 
-### [InjectHook](./InjectHook)
+### [Inject Hook](./InjectHook)
 
 A lightweight C++ library designed for function interception within injected DLLs, providing a streamlined approach to modifying application behavior at runtime. It is ideal for educational purposes, debugging, and dynamic software analysis.
 <div align="right"> 
@@ -361,7 +369,7 @@ Introspective is a header file that brings reflection to any class that wants it
 
 #
 
-### [JS Compiler](./JS-compiler)
+### [Js Compiler](./JS-compiler)
 
 The goal of the project development was to learn the mechanisms of compilers. The project contains five parts:
 
@@ -387,7 +395,7 @@ A C++ library providing a `std::string` parser for JavaScript Object Notation (J
 
 #
 
-### [Key to Value](./KeyToValue/)
+### [Key To Value](./KeyToValue/)
 
 k2v (key-to-value) is a very very simple config file format.
 It's simple, rigid, without super cow power, and maybe stupid.
@@ -410,7 +418,7 @@ The goal of the game is to reach the flag as quickly as possible, but be careful
 
 #
 
-### [Matrix ScreenSaver](./Matrix_ScreenSaver)
+### [Matrix Screen Saver](./Matrix_ScreenSaver)
 
 A *Matrix* terminal screen saver made in C.
 
@@ -444,7 +452,7 @@ With **Syntax highlighting** supported for:
 
 #
 
-### [OfxAsync](./ofxAsync)
+### [Ofx Async](./ofxAsync)
 An [openFrameworks](https://openframeworks.cc/) addon compatible with versions 0.9.8 to 0.10.1, designed to simplify multi-threading through a straightforward wrapper around [ofThread](https://openframeworks.cc/documentation/utils/ofThread/).
 <div align="right"> 
 <a href="#projects-titles"> 📚 </a>
@@ -452,7 +460,7 @@ An [openFrameworks](https://openframeworks.cc/) addon compatible with versions 0
 
 #
 
-### [OpenGL Examples](./OpenGL_examples)
+### [Open Gl Examples](./OpenGL_examples)
 A collection of examples created while taking a Computer Graphics course to better understand OpenGL and apply techniques learned from the literature.
 
 &emsp; **Preview:**
@@ -466,12 +474,12 @@ A collection of examples created while taking a Computer Graphics course to bett
 
 #
 
-### [PFAD](./PFAD)
+### [Pfad](./PFAD)
 A refactored Proof-of-concept originally developed in 2022 to print all function calls with their arguments data types and values using Ptrace during program execution.
 
 #
 
-### [Pipes ScreenSaver](./Pipes_ScreenSaver)
+### [Pipes Screen Saver](./Pipes_ScreenSaver)
 
 A *Pipes* terminal screen saver made in C.
 
@@ -485,7 +493,7 @@ A *Pipes* terminal screen saver made in C.
 
 #
 
-### [POng](./POng)
+### [Pong](./POng)
 
 A Pong ([learn more](https://en.wikipedia.org/wiki/Pong)) clone for Linux written in C++ using SDL 2.0.
 
@@ -526,7 +534,7 @@ This project includes three converters:
 
 #
 
-### [SFML Multithread Verlet](./SFML_Multithread_verlet/)
+### [Sfml Multithread Verlet](./SFML_Multithread_verlet/)
 
 Demonstrates a **multithreaded particle simulation** using the **Verlet integration** method for calculating particle motion, with optimized **collision detection** and interaction. It leverages [**SFML**](https://en.wikipedia.org/wiki/Simple_and_Fast_Multimedia_Library) for rendering and handling the GUI.
 
@@ -591,7 +599,7 @@ A template for a future game that I am currently working on.
 
 #
 
-### [StaticPageGen](./staticpagegen)
+### [Staticpagegen](./staticpagegen)
 
 `staticpagegen` is a tool used to generate static pages for directory hierarchies, using the simplest possible form for the protocols it supports.
 <div align="right"> 
@@ -663,7 +671,7 @@ A small program that lets you visualize multiple trigonometric functions, built 
 
 #
 
-### [ViteFA Config](./ViteFA_config)
+### [Vite Fa Config](./ViteFA_config)
 
 `ViteFA_config` is a highly efficient configuration management system implemented in **C**. It is designed to handle over 100,000 concurrent agent connections with sub-second propagation of configuration changes. The system uses **MySQL** for storage and relies on **libshmcache** for shared memory management. The shared memory type is configured to **mmap**, and `recycle_valid_entries` must be set to **false** for the cache.
 <div align="right"> 
@@ -685,7 +693,7 @@ A real-time GPU volumetric clouds renderer via OpenGL, based on <a href="https:/
 
 #
 
-### [WordProc](./WordProc)
+### [Word Proc](./WordProc)
 
 An attempt to write a word processor using **C++20**, **Qt5**, and CMake as the build system.
 <div align="right"> 
