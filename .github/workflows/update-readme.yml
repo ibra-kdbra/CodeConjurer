@@ -16,20 +16,11 @@ jobs:
       - name: 🛎️ Checkout
         uses: actions/checkout@v4
         with:
-          persist-credentials: true  # so we can push
-
-      - name: 🐍 Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: 3.x
-
-      - name: 🔧 Install dependencies
-        run: |
-          python -m pip install --upgrade pip
+          persist-credentials: true
 
       - name: ⚙️ Generate TOC
         run: |
-          ./scripts/order.py
+          python3 scripts/generate_toc.py
 
       - name: 💾 Commit & Push if changed
         run: |
@@ -44,3 +35,4 @@ jobs:
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
