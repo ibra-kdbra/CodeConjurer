@@ -1,0 +1,6 @@
+[submodule "libraries/mpmt"]
+	path = libraries/mpmt
+	url = https://github.com/cfnptr/mpmt
+[submodule "libraries/mpio"]
+	path = libraries/mpio
+	url = https://github.com/cfnptr/mpio
