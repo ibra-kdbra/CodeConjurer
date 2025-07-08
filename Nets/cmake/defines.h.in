@@ -1,0 +1,206 @@
+#pragma once
+#include <stdint.h>
+#include <stdlib.h>
+#include <assert.h>
+
+#define __NETS__
+
+#define NETS_VERSION_MAJOR @nets_VERSION_MAJOR@
+#define NETS_VERSION_MINOR @nets_VERSION_MINOR@
+#define NETS_VERSION_PATCH @nets_VERSION_PATCH@
+
+#define NETS_SUPPORT_OPENSSL @NETS_SUPPORT_OPENSSL@
+#define NETS_SUPPORT_DEPRECATED_SSL @NETS_SUPPORT_DEPRECATED_SSL@
+
+#define NETS_LITTLE_ENDIAN @NETS_LITTLE_ENDIAN@
+
+#if __linux__
+#include <byteswap.h>
+#define swapBytes16(x) bswap_16(x)
+#define swapBytes32(x) bswap_32(x)
+#define swapBytes64(x) bswap_64(x)
+#elif __APPLE__
+#include <libkern/OSByteOrder.h>
+#define swapBytes16(x) OSSwapInt16(x)
+#define swapBytes32(x) OSSwapInt32(x)
+#define swapBytes64(x) OSSwapInt64(x)
+#elif _WIN32
+#include <stdlib.h>
+#define swapBytes16(x) _byteswap_ushort(x)
+#define swapBytes32(x) _byteswap_ulong(x)
+#define swapBytes64(x) _byteswap_uint64(x)
+#endif
+
+#if NETS_LITTLE_ENDIAN
+#define hostToNet16(x) swapBytes16(x)
+#define hostToNet32(x) swapBytes32(x)
+#define hostToNet64(x) swapBytes64(x)
+#define netToHost16(x) swapBytes16(x)
+#define netToHost32(x) swapBytes32(x)
+#define netToHost64(x) swapBytes64(x)
+#else
+#define hostToNet16(x) (uint16_t)(x)
+#define hostToNet32(x) (uint32_t)(x)
+#define hostToNet64(x) (uint64_t)(x)
+#define netToHost16(x) (uint16_t)(x)
+#define netToHost32(x) (uint32_t)(x)
+#define netToHost64(x) (uint64_t)(x)
+#endif
+
+/*
+ * Nets results.
+ */
+typedef enum NetsResult_T
+{
+	SUCCESS_NETS_RESULT = 0,
+	IN_PROGRESS_NETS_RESULT = 1,
+	NETWORK_IS_NOT_INITIALIZED_NETS_RESULT = 2,
+	OUT_OF_MEMORY_NETS_RESULT = 3,
+	OUT_OF_DESCRIPTORS_NETS_RESULT = 4,
+	NOT_SUPPORTED_NETS_RESULT = 5,
+	NO_ACCESS_NETS_RESULT = 6,
+	ADDRESS_IS_ALREADY_IN_USE_NETS_RESULT = 7,
+	BAD_ADDRESS_NETS_RESULT = 8,
+	BAD_DATA_NETS_RESULT = 9,
+	FAILED_TO_SET_FLAG_NETS_RESULT = 10,
+	ALREADY_CONNECTED_NETS_RESULT = 11,
+	CONNECTION_IS_REFUSED_NETS_RESULT = 12,
+	CONNECTION_IS_ABORTED_NETS_RESULT = 13,
+	CONNECTION_IS_RESET_NETS_RESULT = 14,
+	CONNECTION_IS_CLOSED_NETS_RESULT = 15,
+	NETWORK_IS_NOT_REACHABLE_NETS_RESULT = 16,
+	HOST_IS_NOT_REACHABLE_NETS_RESULT = 17,
+	TIMED_OUT_NETS_RESULT = 18,
+	INTERRUPTED_NETS_RESULT = 19,
+	FAILED_TO_RESOLVE_ADDRESS_NETS_RESULT = 20,
+	FAILED_TO_CREATE_SSL_NETS_RESULT = 21,
+	FAILED_TO_LOAD_CERTIFICATE_NETS_RESULT = 22,
+	NO_OPENSSL_SUPPORT_NETS_RESULT = 23,
+	UNKNOWN_ERROR_NETS_RESULT = 24,
+	NETS_RESULT_COUNT = 25,
+} NetsResult_T;
+
+/*
+ * NETS result type.
+ */
+typedef uint8_t NetsResult;
+
+/*
+ * NETS result strings.
+ */
+static const char* const netsResultStrings[NETS_RESULT_COUNT] = {
+	"Success",
+	"In progress",
+	"Network is not initialized",
+	"Out of memory",
+	"Out of descriptors",
+	"Not supported",
+	"No access",
+	"Address is already in use",
+	"Bad address",
+	"Bad data",
+	"Failed to set flag",
+	"Already connected",
+	"Connection is refused",
+	"Connection is aborted",
+	"Connection is reset",
+	"Connection is closed",
+	"Network is not reachable",
+	"Host is not reachable",
+	"Timed out",
+	"Interrupted",
+	"Failed to resolve address",
+	"Failed to create SSL",
+	"Failed to load certificate",
+	"No OpenSSL support",
+	"Unknown error",
+};
+
+/*
+ * Returns NETS result as string.
+ * result - NETS result.
+ */
+inline static const char* netsResultToString(
+	NetsResult result)
+{
+	if (result >= NETS_RESULT_COUNT)
+		return "Unknown NETS result";
+	return netsResultStrings[result];
+}
+
+/*
+ * Stream message structure.
+ */
+typedef struct StreamMessage
+{
+	uint8_t* buffer;
+	size_t size;
+	size_t offset;
+} StreamMessage;
+
+/*
+ * Creates a new stream message. (TCP)
+ *
+ * buffer - message write buffer.
+ * messageSize - message size in bytes.
+ * lengthSize - message header size in bytes.
+ */
+inline static StreamMessage createStreamMessage(
+	uint8_t* buffer,
+	size_t messageSize,
+	uint8_t lengthSize)
+{
+	assert(buffer != NULL);
+
+	assert(
+		(lengthSize == sizeof(uint8_t) && messageSize <= UINT8_MAX) ||
+		(lengthSize == sizeof(uint16_t) && messageSize <= UINT16_MAX) ||
+		(lengthSize == sizeof(uint32_t) && messageSize <= UINT32_MAX) ||
+		(lengthSize == sizeof(uint64_t) && messageSize <= UINT64_MAX));
+
+	StreamMessage streamMessage;
+	streamMessage.buffer = buffer;
+
+	if (lengthSize == sizeof(uint8_t))
+	{
+		buffer[0] = (uint8_t)messageSize;
+		streamMessage.size = messageSize + sizeof(uint8_t);
+		streamMessage.offset = sizeof(uint8_t);
+	}
+	else if (lengthSize == sizeof(uint16_t))
+	{
+#if NETS_LITTLE_ENDIAN
+		*((uint16_t*)buffer) = (uint16_t)messageSize;
+#else
+		*((uint16_t*)buffer) = swapBytes16(messageSize);
+#endif
+		streamMessage.size = messageSize + sizeof(uint16_t);
+		streamMessage.offset = sizeof(uint16_t);
+	}
+	else if (lengthSize == sizeof(uint32_t))
+	{
+#if NETS_LITTLE_ENDIAN
+		*((uint32_t*)buffer) = (uint32_t)messageSize;
+#else
+		*((uint32_t*)buffer) = swapBytes32(messageSize);
+#endif
+		streamMessage.size = messageSize + sizeof(uint32_t);
+		streamMessage.offset = sizeof(uint32_t);
+	}
+	else if (lengthSize == sizeof(uint64_t))
+	{
+#if NETS_LITTLE_ENDIAN
+		*((uint64_t*)buffer) = (uint64_t)messageSize;
+#else
+		*((uint64_t*)buffer) = swapBytes64(messageSize);
+#endif
+		streamMessage.size = messageSize + sizeof(uint64_t);
+		streamMessage.offset = sizeof(uint64_t);
+	}
+	else
+	{
+		abort();
+	}
+
+	return streamMessage;
+}
