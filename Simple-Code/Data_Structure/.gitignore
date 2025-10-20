@@ -1,0 +1,73 @@
+# Build artifacts and generated files
+build/
+cmake-build-*/
+out/
+bin/
+lib/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Qt/MOC generated files
+moc_*.cpp
+moc_*.h
+*.moc
+qrc_*.cpp
+ui_*.h
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Log files
+*.log
+
+# Test artifacts
+Testing/
+DartConfiguration.tcl
+
+# Backup files
+*~
+*.bak
+
+# Package management
+.vcpkg/
+node_modules/
+
+# Debugging artifacts
+*.dSYM/
+*.pdb
+
+# Coverage reports
+*.gcda
+*.gcno
+*.gcov
+coverage/
+*.info
+
+# Deployment files
+*.dmg
+*.exe
+*.deb
+*.rpm
