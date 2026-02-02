@@ -43,9 +43,25 @@ make
 ```
 
 ## Installation
+Open a terminal in the root folder of **GenXPassword**, then follow the instructions for your operating system.
 
 ### Unix like systems
 
-### Windows
+For Arch and Arch-based systems:
+```bash
+chmod +x ./install_scripts/install.sh
+sudo ./install_scripts/install.sh
+```
+For Debian and Debian-based systems (Ubuntu, Mint, etc.):
+```bash
+chmod +x ./install_scripts/install_debian.sh
+sudo ./install_scripts/install_debian.sh
+```
+<!--- ### Windows TODO --->
 
 ### MacOS
+
+```bash
+chmod +x ./install_scripts/install_macos.sh
+sudo ./install_scripts/install_macos.sh
+```
