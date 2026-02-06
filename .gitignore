@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# Build directories
+build/
+cmake-build-*/
+
+# OS files
+.DS_Store
+Thumbs.db
