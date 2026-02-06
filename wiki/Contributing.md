@@ -143,6 +143,19 @@ When adding new features or projects:
 
 ## 🐛 Reporting Issues
 
+We have several issue templates to help you report issues effectively:
+
+### Available Templates
+
+| Template | Use When |
+|----------|----------|
+| **[Bug Report](https://github.com/ibra-kdbra/CodeConjurer/issues/new?template=bug_report.md)** | Reporting bugs or unexpected behavior |
+| **[Feature Request](https://github.com/ibra-kdbra/CodeConjurer/issues/new?template=feature_request.md)** | Suggesting new features or enhancements |
+| **[Question](https://github.com/ibra-kdbra/CodeConjurer/issues/new?template=question.md)** | Asking questions or requesting help |
+| **[New Project Proposal](https://github.com/ibra-kdbra/CodeConjurer/issues/new?template=new_project_proposal.md)** | Proposing a new C/C++ subproject |
+
+### Bug Reports
+
 When reporting bugs, please include:
 
 1. **Description** - What happened?
@@ -185,6 +198,8 @@ For feature requests, please describe:
 4. **Context** - Why is this important?
 
 ## ✅ Pull Request Checklist
+
+We use a [Pull Request Template](https://github.com/ibra-kdbra/CodeConjurer/blob/main/.github/PULL_REQUEST_TEMPLATE.md) that includes a checklist to ensure quality contributions.
 
 Before submitting a PR, ensure:
 

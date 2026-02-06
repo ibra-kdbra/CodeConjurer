@@ -36,6 +36,12 @@
 - [Contributing](Contributing)
 - [Issues](https://github.com/ibra-kdbra/CodeConjurer/issues)
 
+### 📋 Templates
+- [Bug Report](https://github.com/ibra-kdbra/CodeConjurer/issues/new?template=bug_report.md)
+- [Feature Request](https://github.com/ibra-kdbra/CodeConjurer/issues/new?template=feature_request.md)
+- [New Project Proposal](https://github.com/ibra-kdbra/CodeConjurer/issues/new?template=new_project_proposal.md)
+- [Question](https://github.com/ibra-kdbra/CodeConjurer/issues/new?template=question.md)
+
 ---
 
 ### 📎 Resources

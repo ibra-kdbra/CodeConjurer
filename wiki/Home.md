@@ -15,6 +15,15 @@ Welcome to **CodeConjurer**, a comprehensive collection of C++ projects designed
 | [📂 Project Categories](Project-Categories) | Projects organized by type and topic |
 | [🤝 Contributing](Contributing) | Guidelines for contributing to this repository |
 
+## 📋 Issue & PR Templates
+
+We provide standardized templates to help you contribute effectively:
+
+- **[🐛 Bug Report](https://github.com/ibra-kdbra/CodeConjurer/issues/new?template=bug_report.md)** - Report bugs with project-specific details
+- **[💡 Feature Request](https://github.com/ibra-kdbra/CodeConjurer/issues/new?template=feature_request.md)** - Suggest enhancements
+- **[❓ Question](https://github.com/ibra-kdbra/CodeConjurer/issues/new?template=question.md)** - Ask for help
+- **[🆕 New Project Proposal](https://github.com/ibra-kdbra/CodeConjurer/issues/new?template=new_project_proposal.md)** - Propose new C/C++ subprojects
+
 ## 📊 Repository Statistics
 
 - **40+ Projects** covering various C++ topics

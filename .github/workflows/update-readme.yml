@@ -12,7 +12,7 @@ on:
 
 jobs:
   regen-readme:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
       - name: 🛎️ Checkout
@@ -20,6 +20,11 @@ jobs:
         with:
           persist-credentials: true
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
 
       - name: ⚙️ Generate TOC
         run: python3 scripts/order.py
