@@ -4,6 +4,8 @@
 
 This a collection of examples created while taking a Computer Graphics course to better understand OpenGL and apply techniques learned from the literature.
 
+## Beginner Examples
+
 Contents of this directory:
 
 - **Triangle:** hello world program, tests the display and the buffers
@@ -27,6 +29,16 @@ Contents of this directory:
 - **Texture filtering:** use opengl to smooth textures
 - **Tessellation shader:** implement the level of detail directly in a shader
 - **Volumetric light:** post-processing volumetric light using ray casting as in the  [GPU Gems 3 book](https://developer.nvidia.com/gpugems/gpugems3/part-ii-light-and-shadows/chapter-13-volumetric-light-scattering-post-process)
+
+## Intermediate/Advanced Examples
+
+These examples demonstrate more sophisticated rendering techniques commonly used in modern game engines and graphics applications:
+
+- **Deferred Shading:** A screen-space shading technique that separates geometry and lighting passes using a G-buffer. Supports many lights efficiently with O(n + m) complexity instead of O(n * m). Essential technique for modern game engines.
+
+- **PBR Lighting:** Physically Based Rendering using the Cook-Torrance BRDF. Implements the metallic-roughness workflow with proper energy conservation, Fresnel equations, and HDR lighting with tone mapping.
+
+- **Magic Effects:** A collection of magical visual effects using advanced particle systems. Includes fire, ice, lightning, magic circles, and healing auras with additive blending and post-processing bloom.
 
 ## How to build
 
