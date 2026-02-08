@@ -289,13 +289,16 @@ void display() {
     float presetMetallic[5] = { 1.0f, 1.0f, 1.0f, 0.0f, 0.0f };
 
     glm::vec3 baseAlbedo = presetAlbedos[material_preset];
-    float baseMetallic = presetMetallic[material_preset];
 
     // Render spheres with varying roughness and metallic values
+    // For metals (presetMetallic = 1.0), show full metallic range
+    // For non-metals (presetMetallic = 0.0), cap metallic at 0
+    float maxMetallic = presetMetallic[material_preset];
+    
     for (int row = 0; row < SPHERE_ROWS; row++) {
         for (int col = 0; col < SPHERE_COLS; col++) {
-            // Metallic varies from 0 to 1 across columns
-            float metallic = glm::clamp((float)col / (float)(SPHERE_COLS - 1), 0.05f, 1.0f);
+            // Metallic varies from 0 to maxMetallic across columns
+            float metallic = glm::clamp((float)col / (float)(SPHERE_COLS - 1) * maxMetallic, 0.05f, 1.0f);
             
             // Roughness varies from 0 to 1 across rows
             float roughness = glm::clamp((float)row / (float)(SPHERE_ROWS - 1), 0.05f, 1.0f);

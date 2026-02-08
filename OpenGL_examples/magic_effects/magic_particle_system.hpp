@@ -206,7 +206,8 @@ private:
                     offset = glm::vec3(cos(angle) * radius, 0.0f, sin(angle) * radius);
                 } else if (effect_type == MagicEffectType::HEALING) {
                     float angle = dist(rng) * 3.14159f * 2.0f;
-                    float radius = spawn_radius * sqrt(abs(dist(rng)));
+                    std::uniform_real_distribution<float> radius_dist(0.0f, 1.0f);
+                    float radius = spawn_radius * sqrt(radius_dist(rng));
                     offset = glm::vec3(cos(angle) * radius, 0.0f, sin(angle) * radius);
                 }
 

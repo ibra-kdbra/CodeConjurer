@@ -51,6 +51,4 @@ fr = kd * f_lambert + ks * f_cook-torrance
 - WASD: Move the camera
 - IJKL: Change camera view direction
 - 1-5: Select different preset materials
-- R/F: Increase/decrease roughness
-- M/N: Increase/decrease metallic
 - Space: Toggle light animation
