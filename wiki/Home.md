@@ -10,9 +10,9 @@ Welcome to **CodeConjurer**, a comprehensive collection of C++ projects designed
 
 | Section | Description |
 |---------|-------------|
-| [📖 Project Overview](Project-Overview) | Complete list of all projects with descriptions |
+| [📖 Overview](Project-Overview) | Complete list of all projects with descriptions |
 | [🏁 Getting Started](Getting-Started) | How to clone, build, and run projects |
-| [📂 Project Categories](Project-Categories) | Projects organized by type and topic |
+| [📂 Categories](Project-Categories) | Projects organized by type and topic |
 | [🤝 Contributing](Contributing) | Guidelines for contributing to this repository |
 
 ## 📋 Issue & PR Templates

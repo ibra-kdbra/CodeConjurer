@@ -1,4 +1,4 @@
-# Project Categories
+# Categories
 
 Projects in the CodeConjurer repository organized by category.
 
