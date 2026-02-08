@@ -37,7 +37,7 @@ OpenGL, rendering, and visual effects projects.
 
 ## 🔧 Developer Tools
 
-Tools for development, debugging, and productivity.
+Utilities for development, debugging, and productivity.
 
 | Project | Description | Technologies |
 |---------|-------------|--------------|
@@ -120,7 +120,7 @@ Game engine technology and frameworks.
 
 ## 📊 Sound & Audio
 
-Audio processing and music-related tools.
+Sound processing and music-related tools.
 
 | Project | Description | Technologies |
 |---------|-------------|--------------|
