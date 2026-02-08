@@ -5,9 +5,9 @@
 ---
 
 ### 📖 Documentation
-- [Project Overview](Project-Overview)
+- [Overview](Project-Overview)
 - [Getting Started](Getting-Started)
-- [Project Categories](Project-Categories)
+- [Categories](Project-Categories)
 
 ---
 

@@ -137,8 +137,8 @@ When adding new features or projects:
 1. **Update the project README** - Add usage instructions
 2. **Add code comments** - Explain complex logic
 3. **Update wiki pages** - If adding a new project, update:
-   - [Project Overview](Project-Overview)
-   - [Project Categories](Project-Categories)
+   - [Overview](Project-Overview)
+   - [Categories](Project-Categories)
 3. **Include examples** - Show how to use your code
 
 ## 🐛 Reporting Issues
