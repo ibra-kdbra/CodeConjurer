@@ -1,5 +1,11 @@
 # C++ Projects **PlayGround** #
 
+[![GitHub Stars](https://img.shields.io/github/stars/ibra-kdbra/CodeConjurer?style=social)](https://github.com/ibra-kdbra/CodeConjurer/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/ibra-kdbra/CodeConjurer?style=social)](https://github.com/ibra-kdbra/CodeConjurer/network/members)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](./CONTRIBUTING.md)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
+
 <!-- ### I made this repo to make more C++ projects and implement new things I always wanted to try -->
 <!-- 
 ### **This repo** will contain some forked or cloned repos from other users, their credit will be found in every *README* of each directory and it will be edited to my need
@@ -130,12 +136,6 @@ This repository serves as a personal playground for experimenting with various C
 
 ### Side note:
 Projects are organized alphabetically for easy navigation. Each corresponding *README* file provides specific details, usage instructions, and credits for any borrowed code.
-
-<!-- 
- TODO: add contribution section "how to contribute"
-
-need to be updated
- -->
 
 ## Projects
 
@@ -702,3 +702,51 @@ An attempt to write a word processor using **C++20**, **Qt5**, and CMake as the 
 
 
 #
+
+## 🤝 Contributing
+
+We welcome contributions of all kinds! Whether you want to:
+
+- 🐛 **Report bugs** or suggest features
+- 📝 **Improve documentation**  
+- 💻 **Submit code** improvements or new projects
+- 🎯 **Help others** by answering questions
+
+Check out our [**Contributing Guide**](./CONTRIBUTING.md) to get started!
+
+### Quick Start for Contributors
+
+```bash
+# Fork and clone the repository
+git clone https://github.com/YOUR_USERNAME/CodeConjurer.git
+cd CodeConjurer
+
+# Create a feature branch
+git checkout -b feature/your-feature-name
+
+# Make your changes and submit a PR!
+```
+
+## 🌟 Community
+
+- 📜 **[Code of Conduct](./CODE_OF_CONDUCT.md)** - Please read and follow our community guidelines
+- 🔒 **[Security Policy](./SECURITY.md)** - Report security vulnerabilities responsibly
+- 💬 **[Discussions](../../discussions)** - Ask questions and share ideas
+- ⭐ **Star this repo** if you find it useful!
+
+## 📫 Support
+
+If you have questions or need help:
+
+- 📋 [Open an issue](../../issues/new/choose) using our templates
+- 📖 Check the README in each subproject for specific documentation
+
+---
+
+<div align="center">
+
+**If you find this repository useful, please consider giving it a ⭐!**
+
+Made with ❤️ by [ibra-kdbra](https://github.com/ibra-kdbra)
+
+</div>

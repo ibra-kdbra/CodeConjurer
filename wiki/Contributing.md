@@ -213,10 +213,16 @@ Before submitting a PR, ensure:
 
 ## 📜 Code of Conduct
 
+We follow the [Contributor Covenant Code of Conduct](https://github.com/ibra-kdbra/CodeConjurer/blob/main/CODE_OF_CONDUCT.md). In summary:
+
 - Be respectful and inclusive
 - Provide constructive feedback
 - Focus on the code, not the person
 - Help newcomers feel welcome
+
+## 🔒 Security
+
+Found a security vulnerability? Please review our [Security Policy](https://github.com/ibra-kdbra/CodeConjurer/blob/main/SECURITY.md) for responsible disclosure guidelines.
 
 ## 🙏 Thank You!
 
