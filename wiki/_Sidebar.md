@@ -34,6 +34,8 @@
 
 ### 🤝 Community
 - [Contributing](Contributing)
+- [Code of Conduct](https://github.com/ibra-kdbra/CodeConjurer/blob/main/CODE_OF_CONDUCT.md)
+- [Security Policy](https://github.com/ibra-kdbra/CodeConjurer/blob/main/SECURITY.md)
 - [Issues](https://github.com/ibra-kdbra/CodeConjurer/issues)
 
 ### 📋 Templates

@@ -14,6 +14,8 @@ Welcome to **CodeConjurer**, a comprehensive collection of C++ projects designed
 | [🏁 Getting Started](Getting-Started) | How to clone, build, and run projects |
 | [📂 Categories](Project-Categories) | Projects organized by type and topic |
 | [🤝 Contributing](Contributing) | Guidelines for contributing to this repository |
+| [📜 Code of Conduct](https://github.com/ibra-kdbra/CodeConjurer/blob/main/CODE_OF_CONDUCT.md) | Community standards and expectations |
+| [🔒 Security Policy](https://github.com/ibra-kdbra/CodeConjurer/blob/main/SECURITY.md) | How to report security vulnerabilities |
 
 ## 📋 Issue & PR Templates
 
